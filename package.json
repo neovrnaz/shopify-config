@@ -1,0 +1,28 @@
+{
+  "name": "shopify-config",
+  "version": "1.0.0",
+  "description": "The default configurations and rules for Shopify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neovrnaz/shopify-config.git"
+  },
+  "keywords": [
+    "shopify-config",
+    "shopify",
+    "@shopify/prettier-config",
+    "@shopify/babel-preset",
+    "@shopify/eslint-plugin",
+    "@shopify/stylelint-plugin",
+    "shopify-package"
+  ],
+  "author": "neovrnaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neovrnaz/shopify-config/issues"
+  },
+  "homepage": "https://github.com/neovrnaz/shopify-config#readme"
+}
