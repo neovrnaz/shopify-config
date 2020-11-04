@@ -52,7 +52,7 @@ Rules and configurations - Place below any other configurations you already have
   }
 ```
 
-##### Install packages
+**Install packages**
 ```shell script
 yarn install
 ```
