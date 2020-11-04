@@ -51,9 +51,6 @@
     "extends": [
       "@shopify/stylelint-plugin",
       "@shopify/stylelint-plugin/prettier"
-    ],
-    "scripts": {
-      "stylelint": "stylelint 'src/**/*.scss'"
-    }
+    ]
   }
 }
