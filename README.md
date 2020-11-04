@@ -36,13 +36,6 @@ Rules and configurations - Place below any other configurations you already have
       "@shopify/babel-preset/web"
     ]
   },
-  "eslintConfig": {
-    "extends": [
-      "plugin:shopify/esnext",
-      "plugin:shopify/prettier",
-      "plugin:shopify/stylelint"
-    ]
-  },
   "prettier": "@shopify/prettier-config",
   "stylelint": {
     "extends": [
@@ -50,6 +43,7 @@ Rules and configurations - Place below any other configurations you already have
       "@shopify/stylelint-plugin/prettier"
     ]
   }
+}
 ```
 
 **Install packages**
