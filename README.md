@@ -1,4 +1,4 @@
-#Shopify-config
+# Shopify Development Config
 This simple package.json contains all the necessary Shopify plugins and rules for developing Shopify themes.
 
 <p align="center">
