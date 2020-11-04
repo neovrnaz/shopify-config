@@ -16,13 +16,44 @@
     "@shopify/prettier-config",
     "@shopify/babel-preset",
     "@shopify/eslint-plugin",
-    "@shopify/stylelint-plugin",
-    "shopify-package"
+    "@shopify/stylelint-plugin"
   ],
   "author": "neovrnaz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/neovrnaz/shopify-config/issues"
   },
-  "homepage": "https://github.com/neovrnaz/shopify-config#readme"
+  "homepage": "https://github.com/neovrnaz/shopify-config#readme",
+  "devDependencies": {
+    "@shopify/babel-preset": "23.1.2",
+    "@shopify/eslint-plugin": "^39.0.2",
+    "@shopify/prettier-config": "^1.1.2",
+    "@shopify/stylelint-plugin": "^10.0.1",
+    "babel-core": "6.26.3",
+    "eslint": "^7.12.1",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@shopify/babel-preset/web"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:shopify/esnext",
+      "plugin:shopify/prettier",
+      "plugin:shopify/stylelint"
+    ]
+  },
+  "prettier": "@shopify/prettier-config",
+  "stylelint": {
+    "extends": [
+      "@shopify/stylelint-plugin",
+      "@shopify/stylelint-plugin/prettier"
+    ],
+    "scripts": {
+      "stylelint": "stylelint 'src/**/*.scss'"
+    }
+  }
 }
