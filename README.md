@@ -29,21 +29,21 @@ Dev Dependencies - Usually placed below "Dependencies"
 
 
 
-Rules and configurations - Place below any other configurations you already have.
+Rules and configurations - Place below any other configurations inside of .eslint.json.
 ```npm
-  "babel": {
-    "presets": [
-      "@shopify/babel-preset/web"
-    ]
-  },
-  "prettier": "@shopify/prettier-config",
-  "stylelint": {
-    "extends": [
-      "@shopify/stylelint-plugin",
-      "@shopify/stylelint-plugin/prettier"
-    ]
-  }
+"babel": {
+  "presets": [
+    "@shopify/babel-preset/web"
+  ]
+},
+"prettier": "@shopify/prettier-config",
+"stylelint": {
+  "extends": [
+    "@shopify/stylelint-plugin",
+    "@shopify/stylelint-plugin/prettier"
+  ]
 }
+
 ```
 
 **Install packages**
